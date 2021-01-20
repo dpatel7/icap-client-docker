@@ -1,7 +1,7 @@
 #!/bin/bash
 
 export ICAP_SERVER=78.159.97.25
-export MAX=5
+export MAX=1
 export SOURCE_FILE=Document.pdf
 
 if [ -n "$1" ]; then export ICAP_SERVER=$1; fi
